@@ -244,3 +244,7 @@
 		status = "okay";
 	};
 };
+
+&internal_mdio {
+	reg = <0xe48908ff>;
+};
